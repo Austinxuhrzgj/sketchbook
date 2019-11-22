@@ -1,0 +1,23 @@
+PImage a;
+PImage b;
+PImage c;
+float sliderX;
+float thickness=1;
+
+
+
+void setup() {
+size(800,600);
+  sliderX=10;
+  thickness=5;
+  a=loadImage("pic1.png");
+  b=loadImage("pic2.png");
+  c=loadImage("pic3.png");
+}
+
+
+void draw()  {
+  image(a,100,400,100,100);
+  image(b,250,400,100,100);
+  image(c,400,400,100,100);
+}
